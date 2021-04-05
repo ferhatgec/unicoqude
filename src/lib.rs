@@ -8,7 +8,7 @@
 //
 //
 
-mod unicoqude {
+pub mod unicoqude {
     pub fn check() -> bool {
         #[cfg(target_os = "windows")]
         return true;
